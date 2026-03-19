@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
 const navLinks = ["Destinations", "Hotels", "Flights", "Bookings"];
 
@@ -16,15 +17,19 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const handleScrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, targetId: string) => {
+  const handleScrollToSection = (
+    e: React.MouseEvent<HTMLAnchorElement>,
+    targetId: string,
+  ) => {
     const element = document.getElementById(targetId);
     if (element) {
       e.preventDefault();
       const navbarHeight = 80;
-      const elementPosition = element.getBoundingClientRect().top + window.scrollY;
+      const elementPosition =
+        element.getBoundingClientRect().top + window.scrollY;
       window.scrollTo({
         top: elementPosition - navbarHeight,
-        behavior: "smooth"
+        behavior: "smooth",
       });
       setMobileOpen(false);
     } else {
@@ -44,12 +49,14 @@ const Navbar = () => {
       }`}
     >
       <div className="section-container flex items-center justify-between h-20">
-        <Image
-          src="/images/jadoo-logo.svg"
-          alt="Jadoo"
-          width={115}
-          height={34}
-        />
+        <Link href="/" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+          <Image
+            src="/images/jadoo-logo.svg"
+            alt="Jadoo"
+            width={115}
+            height={34}
+          />
+        </Link>
 
         {/* Desktop nav */}
         <ul className="hidden md:flex items-center gap-8">
@@ -73,11 +80,11 @@ const Navbar = () => {
           <button className="font-body text-foreground font-medium hover:text-accent transition-colors">
             Login
           </button>
-          <button className="font-body border border-foreground text-foreground px-6 py-2 rounded-md hover:bg-foreground hover:text-primary-foreground transition-all duration-300">
+          <button className="font-body border border-black text-foreground px-4 py-2 rounded-md hover:bg-foreground hover:text-primary-foreground transition-all duration-300">
             Sign up
           </button>
-          <span className="text-body font-body text-sm cursor-pointer">
-            EN ▾
+          <span className="flex gap-2 text-body font-body text-base cursor-pointer">
+            EN <Image src="/images/chevron-down.svg" alt="Chevron Down" width={10} height={6} />
           </span>
         </div>
 

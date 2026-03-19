@@ -20,14 +20,14 @@ const testimonials = [
     name: "Chris Thomas",
     location: "CEO of Red Button",
     text: "“Jadoo has transformed how we plan our corporate retreats. Unparalleled service and seamless booking experience.”",
-    avatar: "/images/mike-avatar.png",
+    avatar: "/images/chris-img.jpg",
   },
   {
     id: 3,
     name: "Sarah Jenkins",
     location: "London, UK",
     text: "“The best decision I made for my vacation. Every detail was expertly curated and executed flawlessly.”",
-    avatar: "/images/mike-avatar.png",
+    avatar: "/images/women-img.jpg",
   },
 ];
 
