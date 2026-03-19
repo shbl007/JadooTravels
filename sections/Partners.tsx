@@ -8,7 +8,7 @@ import Container from "@/ui/Container";
 const partners = [
   { name: "Axon", src: "/images/axon.svg", width: 130, height: 40 },
   { name: "Jetstar", src: "/images/jetstar.svg", width: 172, height: 50 },
-  { name: "Expedia", src: "/images/Expedia.svg", width: 241, height: 86 },
+  { name: "Expedia", src: "/images/expedia.svg", width: 241, height: 86 },
   { name: "Qantas", src: "/images/qantas.svg", width: 162, height: 34 },
   { name: "Alitalia", src: "/images/alitalia.svg", width: 120, height: 28 },
 ];
