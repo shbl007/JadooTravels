@@ -75,7 +75,7 @@ export default function HeroSection() {
               className="pointer-events-none absolute right-[6%] top-[36%] z-20 hidden w-[110px] rotate-[6deg] lg:block"
             /> */}
             <Image
-              src="/images/image.png"
+              src="/images/lady-traveller.webp"
               alt="Happy traveler seated on luggage"
               width={767}
               height={764}
