@@ -1,0 +1,16 @@
+<svg width="370" height="327" viewBox="0 0 370 327" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="370" height="327" rx="24" fill="#BFE7FF"/>
+  <rect y="236" width="370" height="91" fill="#B58C6E"/>
+  <rect x="70" y="175" width="22" height="61" fill="#A57B60"/>
+  <rect x="95" y="154" width="18" height="82" fill="#9A755A"/>
+  <rect x="116" y="182" width="31" height="54" fill="#C6A186"/>
+  <rect x="151" y="166" width="28" height="70" fill="#B78B70"/>
+  <rect x="182" y="146" width="34" height="90" fill="#AA8267"/>
+  <rect x="221" y="169" width="21" height="67" fill="#C49F83"/>
+  <rect x="248" y="190" width="18" height="46" fill="#A57B60"/>
+  <path d="M133 118C133 86.5198 158.52 61 190 61C221.48 61 247 86.5198 247 118V129H133V118Z" fill="white"/>
+  <path d="M165 92C165 78.7452 175.745 68 189 68H191C204.255 68 215 78.7452 215 92V129H165V92Z" fill="#4E74B6"/>
+  <rect x="148" y="129" width="84" height="73" fill="#F3F5F7"/>
+  <path d="M133 129H247V147H133V129Z" fill="#DAE3EB"/>
+  <path d="M0 117C87 86 177 83 286 95C326 100 354 107 370 113V0H0V117Z" fill="white" fill-opacity=".6"/>
+</svg>

@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background: #ffffff;
+  color: #181e4b;
+  font-family: var(--font-poppins), sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.section-label {
+  @apply text-center text-lg font-semibold uppercase tracking-tight text-slate;
+}
+
+.section-heading {
+  @apply font-display text-[2.5rem] font-bold leading-[1.1] text-ink sm:text-[3rem] lg:text-[3.125rem];
+}
+
+.hero-title {
+  font-family: var(--font-volkhov), serif;
+  font-size: clamp(3.3rem, 7vw, 5.25rem);
+  font-weight: 700;
+  line-height: 0.98;
+  letter-spacing: -0.03em;
+}
+
+.rounded-panel {
+  border-radius: 1.75rem;
+  background: #ffffff;
+  box-shadow: 0 25px 60px rgba(41, 45, 79, 0.08);
+}
+
+.cross-grid {
+  background-image:
+    linear-gradient(#e5e5ea 0 0),
+    linear-gradient(#e5e5ea 0 0);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 14px 1px, 1px 14px;
+}

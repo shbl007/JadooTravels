@@ -1,0 +1,9 @@
+<svg width="107" height="35" viewBox="0 0 107 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="107" height="35" rx="17.5" fill="black"/>
+  <path d="M16 10L24 17.5L16 25V10Z" fill="#32D74B"/>
+  <path d="M16 10L28 16L24 17.5L16 10Z" fill="#38A3FF"/>
+  <path d="M16 25L28 19L24 17.5L16 25Z" fill="#FF8A00"/>
+  <path d="M28 16L31 17.5L28 19L24 17.5L28 16Z" fill="#FFD400"/>
+  <text x="37" y="16" fill="white" font-family="Arial, sans-serif" font-size="6">GET IT ON</text>
+  <text x="37" y="24" fill="white" font-family="Arial, sans-serif" font-size="9" font-weight="700">GOOGLE PLAY</text>
+</svg>
